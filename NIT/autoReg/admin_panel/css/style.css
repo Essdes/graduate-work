@@ -1,0 +1,116 @@
+html,
+body{
+    outline: 0;
+    line-height: 1.5;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    background-color: #222327;
+}
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    font-family: Arial,"Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 3px #1f0f00;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+    text-shadow: 2px 2px 5px #000538;
+    line-height: 2;
+}
+button {
+    outline: none;
+    border: none;
+    /* background-color: none; */
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px #000538;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover{
+    color: #63ffce;
+}
+button:active{
+    color: #ff5dfc;
+}
+form {
+    margin: auto;
+    width: 85%;
+    min-height: 94vh;
+    background-color: #1a1b1d;
+    color: #2ad2ff;
+    font-family: Arial,"Helvetica Neue", Helvetica, sans-serif;
+    text-shadow: 1px 1px 3px #000000;
+    font-weight: 600;
+    position: relative;
+    margin: auto;
+    margin-top: 1.5%;
+    border-radius: 25px;
+    box-shadow: 8px 8px 12px #161616;
+    cursor: pointer;
+}
+hr {
+    /* content: ""; */
+    /* glyph-orientation-horizontal: 0deg; */
+    background: #ffffff49;
+    box-shadow: 1px 2px 3px #5e5e5e46;
+}
+.form__menu {
+    width: 250px;
+    height: 100%;
+    background: linear-gradient(2.228rad, #3e9eff, #d05dff ,#63ffa1);
+    position: absolute;
+    border-radius: 25px 0 0 25px;
+    box-shadow: 5px 0px 10px #101010;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    float: left;
+}
+.list__content{
+    padding: 50px 5px;
+}
+li:hover{
+    color: #63ffce;
+}
+.form__content {
+    display: block;
+    /* margin-right: auto; */
+    margin: auto;
+    margin-left: 30vh;
+    /* margin-right: 0%; */
+}
+.main__menu-text {
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    color: transparent;
+    text-shadow: 2px 2px 5px #000000;
+    font-weight: 600;
+    color: white;
+    font-family: cursive;
+    cursor: pointer;
+}
+.main__menu-text:hover {
+    color: #2ad2ff;
+}

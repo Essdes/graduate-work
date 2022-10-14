@@ -1,0 +1,39 @@
+// {
+//     // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+//     // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+//     // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "type": "edgemicrosoft",
+//             "request": "launch",
+//             "name": "Launch Main_1.html",
+//             "skipFiles": [
+//                 "<node_internals>/**"
+//             ],
+//             "program": "${workspaceFolder}/JS/script.js",
+//             "cwd": "${workspaceFolder}",
+//             "runtimeExecutable": null
+//         }
+//     ]
+// }
+ {
+     "version": "0.2.0",
+     "configurations": [
+
+         {
+             "name": "Launch localhost in Microsoft Edge",
+            "type": "edge",
+             "request": "launch",
+             // "url": "http://localhost/Main_1.html",
+             "webRoot": "${workspaceFolder}/wwwroot"
+         },
+         {
+             "name": "Launch NIT in Microsoft Edge",
+             "type": "edge",
+             "request": "launch",
+             "file": "${workspaceFolder}/Main_1.html"
+             // "runtimeExecutable": null
+       },
+     ]
+ }
